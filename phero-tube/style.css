@@ -1,0 +1,92 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog{
+  background-color: red;
+  padding: 8px;
+  border-radius: 4px;
+  float: right;
+}
+
+.sort-by-view{
+    width: 140px;
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .blog{
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .blog{
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+}
+
+#profile{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 40px;
+}
+
+
+#video-description{
+   
+    width: 260px;
+
+    color: #171717;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+#owner-part{
+    color: rgba(23, 23, 23, 0.70);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bt{
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#views-container{
+    color: rgba(23, 23, 23, 0.70);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 57px;
+
+}
+
+
+.changeColor{
+    background-color: red;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+    .navbar-collapse{
+        justify-content: center;
+        padding-top: 5%;
+    }
+  
+}
+
